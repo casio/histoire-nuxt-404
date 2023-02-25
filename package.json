@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "story:dev": "histoire dev"
+  },
+  "devDependencies": {
+    "@histoire/plugin-nuxt": "^0.15.8",
+    "@histoire/plugin-vue": "^0.15.8",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "histoire": "^0.15.8",
+    "nuxt": "^3.2.2",
+    "vite": "^4.1.4",
+    "vue": "^3.2.47"
+  }
+}
